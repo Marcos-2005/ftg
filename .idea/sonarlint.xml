@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SonarLintProjectSettings">
+    <option name="moduleMapping">
+      <map>
+        <entry key="driven-mysql-repository" value="elevate-driven-postgresql-repository" />
+        <entry key="driving-api-rest" value="elevate-driving-api-rest" />
+      </map>
+    </option>
+  </component>
+</project>

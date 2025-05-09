@@ -1,0 +1,96 @@
+
+# === ARCHIVOS DE CONTROL DE VERSIONES Y CONFLICTOS ===
+*.LOCAL.*
+*.REMOTE.*
+*_BACKUP_*.txt
+*_BASE_*.txt
+*_LOCAL_*.txt
+*_REMOTE_*.txt
+
+# === INTELLIJ IDEA Y JETBRAINS ===
+.idea/
+*.iml
+modules.xml
+.idea/misc.xml
+*.ipr
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/usage.statistics.xml
+.idea/**/dictionaries
+.idea/**/shelf
+.idea/**/contentModel.xml
+.idea/**/dataSources/
+.idea/**/dataSources.ids
+.idea/**/dataSources.local.xml
+.idea/**/sqlDataSources.xml
+.idea/**/dynamic.xml
+.idea/**/uiDesigner.xml
+.idea/**/dbnavigator.xml
+.idea/**/gradle.xml
+.idea/**/libraries
+.idea/httpRequests
+.idea/sonarlint
+.idea/replstate.xml
+
+# === JAVA ===
+*.class
+*.log
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+hs_err_pid*
+.mtj.tmp/
+
+# === MAVEN ===
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# === ECLIPSE ===
+.metadata
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.settings/
+.loadpath
+.recommenders
+.classpath
+.project
+.checkstyle
+*.launch
+*.log
+logs/
+
+# === DOCKER ===
+docker/sql/*.sql
+!docker/sql/schema.sql
+!docker/sql/data.sql
+docker/mysql_data/
+*.pid
+
+# === SISTEMAS ===
+.DS_Store
+Thumbs.db
+
+# === FRONTEND
+node_modules/
+dist/
+build/
+.env
+.env.local
+gitignore
