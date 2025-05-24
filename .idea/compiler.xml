@@ -7,11 +7,15 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="elevate-boot" />
+        <module name="repdis-driven-mysqlrepository" />
         <module name="application" />
         <module name="mysqlrepository" />
+        <module name="repdis-boot" />
         <module name="apirest" />
         <module name="domain" />
+        <module name="repdis-application" />
+        <module name="elevate-boot" />
+        <module name="repdis-driving-apirest" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -28,6 +32,10 @@
       <module name="driving-api-rest" options="-parameters" />
       <module name="elevate-boot" options="-parameters" />
       <module name="mysqlrepository" options="-parameters" />
+      <module name="repdis-application" options="-parameters" />
+      <module name="repdis-boot" options="-parameters" />
+      <module name="repdis-driven-mysqlrepository" options="-parameters" />
+      <module name="repdis-driving-apirest" options="-parameters" />
     </option>
   </component>
 </project>
